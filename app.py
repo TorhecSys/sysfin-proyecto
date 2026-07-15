@@ -15,7 +15,7 @@ REMITENTE = "asconektion2026@gmail.com"
 CONTRASEÑA = "gigjctbnvuwsrtjm"   
 DESTINATARIO = "lisaesm2017@gmail.com" 
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AQ.Ab8RN6LnyXIBC8zFwmHJoNPlKTfRjCbKpQeARepvDn4G29weQg")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
 # Configuración de página con un layout limpio y moderno
 str_visual.set_page_config(page_title="SisFin - Tablero de Inversiones AI", layout="wide")
